@@ -1,0 +1,16 @@
+.expensesChart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfd2cf;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 580px) {
+  .expensesChart {
+    width: 100%;
+  }
+}

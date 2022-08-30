@@ -1,0 +1,22 @@
+.expensesFilter {
+  padding: 0 1rem;
+}
+
+.expensesFilterControl {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+.expensesFilter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expensesFilter select {
+  font: inherit;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 6px;
+}

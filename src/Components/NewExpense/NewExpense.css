@@ -1,0 +1,29 @@
+.newExpense {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #293462;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 80%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+button {
+  margin: 2rem 0.5rem;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 15rem;
+  max-width: 100%;
+}
+
+@media (max-width: 580px) {
+  .newExpense {
+    width: 85%;
+  }
+}

@@ -1,0 +1,10 @@
+.expensesList {
+  background-color: #cfd2cf;
+  width: 90%;
+  border-radius: 10px;
+}
+@media (max-width: 580px) {
+  .expensesList {
+    width: 100%;
+  }
+}

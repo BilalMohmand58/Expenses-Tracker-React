@@ -1,0 +1,15 @@
+.expenseItem {
+  background-color: #4b4b4b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 580px) {
+  .expenseItem {
+    margin: 1rem 0.3rem;
+  }
+}
